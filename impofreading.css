@@ -1,1 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url("img/reading.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  font-family: "Amiri", serif;
+}
+.all {
+  background-color: rgba(144, 238, 144, 0.13);
+}
+.blog {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 3rem;
+  /* font-family: ; */
+  font-family: "Satisfy", cursive;
+  color: green;
+  /* text-decoration: underline; */
+}
+.heading {
+  /* text-align: center; */
+  color: #9d775b;
+  font-size: 2rem;
+  text-decoration: underline;
+  /* font */
+}
+.full {
+  background-image: url("img/reading.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 7%;
+  /* background-color: rgb(148, 148, 148, 0.1); */
+  margin: 3%;
+  font-size: 1.2rem;
+  color: #9d775b;
+}
+.article::selection,
+.heading::selection,
+.quote::selection {
+  color: white;
+  background-color: rgba(15, 235, 15, 0.3);
+}
