@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+html,
+body {
+  font-family: "Amiri", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.illustration {
+  display: inline-block;
+  margin: 0;
+  background-image: url("/img/undraw_fill_in_mie5.png");
+  background-position: center;
+  width: 60vw;
+  height: 30vh;
+}
+div.head {
+  margin-top: 3%;
+  margin-left: 7%;
+  /* text-align: center; */
+  text-decoration: underline;
+  color: #9d775b;
+  font-size: 3rem;
+}
+div.cont {
+  margin-left: 2%;
+  width: 50%;
+  color: #9d775b;
+  font-size: 2.5rem;
+}
+div.cont > .motto {
+  color: #8d857f;
+  font-style: italic;
+  margin-top: 2%;
+  font-size: 1.5rem;
+}
+.head::selection,
+.motto::selection,
+.line1::selection {
+  background-color: #9d775b;
+  color: white;
+}
+/* .buttonlink{
+    
+} */
+.flex {
+  display: flex;
+}
+.buttonlink {
+  position: absolute;
+  /* margin-right: 5%; */
+  top: 0;
+  right: 0;
+  margin-left: 25%;
+  width: 30%;
+  margin-top: 0;
+  height: 100%;
+  background-color: #ffddca;
+}
+.btn1anc {
+  /* display: inline-block;
+  /* padding-top: 50%; */
+  /* padding-top: 80%; */
+  /* padding-left: 45%; */
+  /* padding-right: 40%; */
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 30%;
+  height: 5%;
+  border: 3px solid white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: blanchedalmond;
+}
+/* footer{
+background-color: ;
+} */
