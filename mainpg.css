@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+body {
+  font-family: "Amiri", serif;
+  /* background-image: url("/img/Web\ 1920\ –\ 1.jpg");
+  background-position: center;
+  background-size: 50%; */
+}
+div.all {
+  background-image: url("/img/Web\ 1920\ –\ 1.jpg");
+  background-position: center;
+  background-size: stretch;
+}
+.heading {
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  margin-top: 5%;
+  font-size: 3rem;
+  padding: 3%;
+  color: #9d775b;
+  /* background-color: rgba(255, 254, 254, 0.562); */
+}
+.heading::selection {
+  color: white;
+  background-color: #9d775b;
+}
+.container1,
+.container2,
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.finish {
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-size: 3rem;
+  color: #9d775b;
+}
+.button {
+  position: absolute;
+  right: 20px;
+  top: 290px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 3px solid #ffddca;
+  background-color: #fcf3e4;
+  outline: none;
+}
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+.img {
+  width: 300px;
+  padding: 10px;
+  /* margin: 2%; */
+  padding: 2%;
+  /* height: 35%; */
+}
+a {
+  margin: 0;
+  padding: 7px;
+}
+.img.img2 {
+  width: 130px;
+}
+.button:hover,
+.button2:hover {
+  cursor: pointer;
+}
+.button2 {
+  position: absolute;
+  top: 290px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 3px solid #fcf3e4;
+  background-color: #ffddca;
+  outline: none;
+}
+.img3 {
+  width: 150px;
+}
